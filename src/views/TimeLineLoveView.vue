@@ -47,6 +47,10 @@
 <script setup lang="ts">
 import { onMounted, ref, type Ref } from 'vue'
 import heart from '@/assets/images/heart.png'
+import image1 from '@/assets/images/image-1.jpg'
+import image2 from '@/assets/images/image-2.jpg'
+import image3 from '@/assets/images/image-3.jpg'
+import image4 from '@/assets/images/image-4.jpg'
 
 const items = ref([
   {
@@ -54,7 +58,28 @@ const items = ref([
     date: '17-04-2023',
     color: 'primary',
     text: 'text',
-    image: 'image path'
+    image: image1
+  },
+  {
+    title: 'Title',
+    date: '17-04-2023',
+    color: 'primary',
+    text: 'text',
+    image: image2
+  },
+  {
+    title: 'Title',
+    date: '17-04-2023',
+    color: 'primary',
+    text: 'text',
+    image: image3
+  },
+  {
+    title: 'Title',
+    date: '17-04-2023',
+    color: 'primary',
+    text: 'text',
+    image: image4
   }
   // Add more items as needed
 ])
